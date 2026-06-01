@@ -1,0 +1,16 @@
+.navbar {
+    position:sticky;
+    top:0;
+    background:#1a1a1a;
+    padding: 1rem 2rem;
+    z-index: 100;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1.5rem;
+    font-size: 1.3rem;       /* BIG text :) */
+    font-weight: 500;
+}
