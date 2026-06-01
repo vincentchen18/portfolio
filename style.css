@@ -1,3 +1,12 @@
+/* theme */
+:root {
+    --bg: #0d0d0d;
+    --bg-elevated: #1a1a1a;
+    --text: #e8e8e8;
+    --text-dim: #a0a0a0;
+    --accent: #4af;
+    --border: #2a2a2a;
+}
 .navbar {
     position:sticky;
     top:0;
@@ -13,4 +22,10 @@
     margin-right: 1.5rem;
     font-size: 1.3rem;       /* BIG text :) */
     font-weight: 500;
+}
+body {
+    background: #0d0d0d;
+    color: #e8e8e8;
+    font-family: 'Fira Code', monospace;
+    margin: 0;
 }
