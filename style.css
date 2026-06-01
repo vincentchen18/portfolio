@@ -10,7 +10,7 @@
 .navbar {
     position:sticky;
     top:0;
-    background:#1a1a1a;
+    background:#282828;
     padding: 1rem 2rem;
     z-index: 100;
     display: flex;
@@ -28,4 +28,21 @@ body {
     color: #e8e8e8;
     font-family: 'Fira Code', monospace;
     margin: 0;
+}
+section { /* separate the sections */
+    min-height: 100vh;
+    padding: 4rem 2rem;
+}
+.navbar a {
+    color: var(--text);                /* or whatever color you had */
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0.5rem 1.2rem;            /* gives the pill room to wrap the text */
+    border-radius: 9999px;             /* makes it a perfect pill / very rounded rect */
+    transition: background 0.2s ease;  /* smooth fade in/out */
+}
+
+.navbar a:hover {
+    background: #6a8759;               /* PyCharm string green */
 }
